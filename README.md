@@ -2,6 +2,7 @@ Are you sick of debugging? [sausage-console-dog]("https://github.com/MaoShizhong
 
 Introducing the definitive console logger for the modern era: console-frog!
 
+![A sad frog meme with the caption "MFW I REALISE JS DOESN'T HAVE A NATIVE CONSOLE.FROG METHOD](./frog-console.jpeg)
 # Install
 
 ```sh
