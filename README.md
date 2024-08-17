@@ -8,17 +8,17 @@ Introducing the definitive console logger for the modern era: console-frog-plus-
 # Install
 
 ```sh
-npm i console-frog
+npm i console-frog-plus-plus
 ```
 
 # Usage
 
 ```js
 // CJS
-require('console-frog');
+require('console-frog-plus-plus');
 
 // ESM
-import 'console-frog';
+import 'console-frog-plus-plus';
 ```
 
 ## Example
