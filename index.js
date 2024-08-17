@@ -1,8 +1,10 @@
 const consoleFrog = (log) => {
-  const length = log.length;
+  const stringified = typeof log === "string" ? log : JSON.stringify(log);
+
+  const length = stringified ? stringified.length : log.length;
   const border = "-".repeat(length + 4);
   console.log(`                            ${border}
-                           |  ${log}  |
+                           |  ${stringified? stringified : log}  |
                             ${border}
                             /     `);
   console.log(`               .--._.--.   /
@@ -20,5 +22,3 @@ const consoleFrog = (log) => {
 }
 
 console.frog = consoleFrog;
-
-console.frog("Hello, World!");
