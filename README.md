@@ -61,4 +61,4 @@ Ribbit! 🐸
 - To an unknown artist at https://www.asciiart.eu/animals/frogs for the ASCII art
 
 # License
-See [LICENSE](./LICENSE)
+See [LICENSE](./LICENSE.md)
