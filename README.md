@@ -62,4 +62,3 @@ Ribbit! 🐸
 
 # License
 See [LICENSE](./LICENSE)
-```
