@@ -1,5 +1,5 @@
 const consoleFrog = (log) => {
-  const stringified = typeof log === "string" ? log : JSON.stringify(log);
+  const stringified = typeof log === "string" ? null : JSON.stringify(log);
 
   const length = stringified ? stringified.length : log.length;
   const border = "-".repeat(length + 4);
